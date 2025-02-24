@@ -1,0 +1,57 @@
+<!-- activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Menü Butonu (Üçlü çizgi butonu) -->
+
+    <!-- Yan Menü (Başlangıçta gizli) -->
+
+    <ImageButton
+        android:id="@+id/btnMenu"
+        android:layout_width="63dp"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="170dp"
+        android:background="@drawable/gradient_background"
+        android:contentDescription="Menü Butonu"
+        android:src="@android:drawable/ic_menu_more"
+        tools:srcCompat="@tools:sample/avatars[11]" />
+
+    <LinearLayout
+        android:id="@+id/sideMenu"
+        android:layout_width="match_parent"
+        android:layout_height="312dp"
+        android:layout_gravity="center"
+        android:background="@drawable/circle_background"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btnWifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_button"
+            android:text="Wi-Fi"
+            android:textColor="@color/white" /> <!-- Wi-Fi butonu için arka plan ve margin -->
+
+        <Button
+            android:id="@+id/btnIr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:text="IR"
+            android:textColor="#FFFFFF" /> <!-- IR butonu için benzer arka plan -->
+
+    </LinearLayout>
+
+    <!-- Diğer view'larınızı buraya ekleyebilirsiniz -->
+
+</RelativeLayout>

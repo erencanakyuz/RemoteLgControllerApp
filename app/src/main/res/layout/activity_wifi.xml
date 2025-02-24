@@ -1,0 +1,26 @@
+<!-- activity_wifi.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Bağlanma Butonu -->
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bağlan"
+        android:layout_centerInParent="true" />
+
+    <!-- Geri Butonu -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Geri"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

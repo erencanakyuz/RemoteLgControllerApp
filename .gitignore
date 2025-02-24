@@ -1,43 +1,15 @@
-# Gradle files
-.gradle/
-**/build/
-gradle-app.setting
-gradle.properties
-gradlew
-gradlew.bat
-
-# Android-specific
-*.apk
-*.ap_
-*.aab
-*.dex
-*.so
-*.o
-*.d
-*.class
-*.log
-
-# IntelliJ/Android Studio files
-.idea/
 *.iml
-*.ipr
-*.iws
-
-# Local properties (SDK paths, signing keys, etc.)
-local.properties
-*.keystore
-*.jks
-
-# Generated folders
-captures/
-output.json
-android/app/google-services.json
-
-# Misc
-*.log
-*.lock
-*.swp
-*.swo
-*.swn
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
 .DS_Store
-Thumbs.db
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties

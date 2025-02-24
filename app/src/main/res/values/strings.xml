@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CeyhanKumanda</string>
+    <string name="title_activity_ir">IrActivity</string>
+    <string name="title_activity_wifi">WifiActivity</string>
+</resources>
